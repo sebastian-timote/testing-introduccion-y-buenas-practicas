@@ -10,9 +10,16 @@ function fizzBuzz(number) {
     if (number % 5 === 0) {
         return 'Buzz';
     }
-
     return number;
-
 }
 
-module.exports = fizzBuzz;
+function saludos(data) {
+    return "hello " + data;
+}
+
+const archivostest = {
+    saludos,
+    fizzBuzz
+}
+
+module.exports = archivostest;
