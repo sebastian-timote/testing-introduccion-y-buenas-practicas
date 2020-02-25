@@ -17,9 +17,9 @@ function saludos(data) {
     return "hello " + data;
 }
 
-const archivostest = {
+const archivostest = {//lista de mis funciones 
     saludos,
     fizzBuzz
 }
 
-module.exports = archivostest;
+module.exports = archivostest;//export las funciones para que puedan acceder 
